@@ -1,17 +1,17 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview
-AlphabetSoup is a non-profit foundation dedicated to helping organizations that protect the environment, improve people’s well-being, and unify the world. AlphabetSoup has raised and donated over $10 billion USD dollars in the past 20 years. This money has been used to invest in lifesaving technologies and has organized reforestation groups, around the world.
+AlphabetSoup is a non-profit foundation committed to helping organizations that support in protecting the environment, improve people’s well-being, and unify the world. AlphabetSoup has built and donated over $10 billion USD dollars in the past 20 years. This money raised to invest in lifesaving technologies and has organized reforestation groups around the world.
 
-The purpose of this analysis is to analyze the impact of each donation and vet potential recipients. This helps ensure the foundation’s money is being used effectively. Unfortunately, not every donation the company makes is impactful. In some cases, an organization will take the money and disappear. In trying to predict which organizations are worth donating to and which are too high of a risk, a mathematical, data driven solution is created, which can do this accurately.
+This analysis is to find out the impact of each donation and vet potential recipients. This helps ensure the foundation’s money is being used effectively. Unfortunately, not every donation the company makes is impactful. In some cases, an organization will take the money and disappear. In trying to predict which organizations are worth donating to and which are too high of a risk, a mathematical, data driven solution is created, which can do this accurately.
 
 A deep learning neural network is designed and trained, using python’s tensorflow library. The model evaluates all types of input data and produces a clear decision-making result. Utilizing the features in the provided dataset, a binary classifier is created that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. The dataset contains more than 34,000 organizations that have received funding from Alphabet Soup over the years.
 
 ## Results
 ### Data Preprocessing
-  - What variable(s) are considered the target(s) for the model? 
+  - What variables are considered the targets for the model? 
     - The "IS_SUCCESSFUL" column is the target, as it contains data on whether the donations were used effectively. The target variable is the dependent variable, y.
-  - What variable(s) are considered to be the features for the model? 
+  - What variables are considered to be the features for the model? 
     - The following variables are considered to be the features for the model: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT. These variables are the independent variables, x.
   - What variable(s) are neither targets nor features, and should be removed from the input data? 
     - The identification columns EIN and NAME were dropped, as they are not beneficial when completing the analysis.
