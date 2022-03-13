@@ -7,6 +7,19 @@ This analysis is to find out the impact of each donation and vet potential recip
 
 A deep learning neural network is designed and trained, using python’s tensorflow library. The model evaluates all types of input data and produces a clear decision-making result. Utilizing the features in the provided dataset, a binary classifier is created that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. The dataset contains more than 34,000 organizations that have received funding from Alphabet Soup over the years.
 
+These are the dataset used in the analysis:
+- EIN and NAME—Identification columns
+- APPLICATION_TYPE—Alphabet Soup application type
+- AFFILIATION—Affiliated sector of industry
+- CLASSIFICATION—Government organization classification
+- USE_CASE—Use case for funding
+- ORGANIZATION—Organization type
+- STATUS—Active status
+- INCOME_AMT—Income classification
+- SPECIAL_CONSIDERATIONS—Special consideration for application
+- ASK_AMT—Funding amount requested
+- IS_SUCCESSFUL—Was the money used effectively
+
 ## Results
 ### Data Preprocessing
   - What variables are considered the targets for the model? 
